@@ -116,6 +116,8 @@ dependencies:
     - pyvista
     - requests
     - scooby
+    - trimesh
     - urllib3
     - vtk
+    - openpyxl
 prefix: /Users/aditya.soman/.conda/envs/locipyenv
