@@ -1,7 +1,7 @@
 # Loci_Python
 Local repo for Loci Python module 
 
-Instllation instructions 
+**Installation instructions** 
 
 1. Navigate on the conda cmd to the location where you have cloned the Repository
 2. Navigate to topogenesis folder 
