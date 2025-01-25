@@ -79,6 +79,7 @@ dependencies:
   - pytz
   - pyzmq
   - scipy
+  - scikit-criteria
   - send2trash
   - setuptools
   - six
@@ -113,6 +114,7 @@ dependencies:
     - jupyterlab
     - jupyterlab-server
     - meshio
+    - networkx
     - pyvista
     - requests
     - scooby
