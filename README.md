@@ -22,3 +22,11 @@ cd topogenesis
       ```
    python -m pip install -e .
    ```
+6. Update pyvista and Jupyterlab. 
+      ```
+   pip install jupyterlab pyvista[all]
+   ```
+5. Install rhino3dm flash and gh-hops server
+      ```
+   pip install flask rhino3dm ghhops_server
+   ```
