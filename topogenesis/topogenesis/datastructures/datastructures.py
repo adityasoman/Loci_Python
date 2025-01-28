@@ -381,13 +381,13 @@ class lattice(np.ndarray):
         with open(filepath, 'w') as df_out:
 
             metadata.to_csv(df_out, index=False,
-                            header=True, float_format='%g', line_terminator='\n')
+                            header=True, float_format='%g')
 
             df_out.write('\n')
 
             vol_df.to_csv(df_out,
                           index=False,
-                          float_format='%g', line_terminator='\n')
+                          float_format='%g')
 
     def to_pandas(self):
         """This methods returns a pandas dataframe containing the lattice information with integer indices and value of the cell as columns.
