@@ -323,6 +323,7 @@ def surface_normal_newell_vectorized(poly):
     norm = np.linalg.norm(n)
     if norm == 0:
         raise ValueError('zero norm')
+    
     else:
         normalized = n/norm
 
